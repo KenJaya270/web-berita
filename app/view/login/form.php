@@ -23,7 +23,7 @@
                       </div>
                     </form>
                     <div class="text-center mt-3">
-                      <a class="small text-dark" href="register.html">Dont have an Account?</a>
+                      <a class="small text-dark" href="<?=BASEURL?>/register/form">Dont have an Account?</a>
                     </div>
                   </div>
                 </div>
