@@ -24,7 +24,7 @@
                 <li><a href="#">Trendings</a></li>
                 <li><a href="#">What's new</a></li>
                 <li><a href="#">Old report</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">About</a></li>
                 <li><a href="<?= BASEURL ?>/login/form"><button class="btn-danger navbar-btn">Log In</button>
             </ul>
         </header>

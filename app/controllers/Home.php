@@ -4,7 +4,7 @@
         public function index(){
             $data['judul'] = "Home";
 
-            $this->view('template/header');
+            $this->view('template/header', $data);
 
             $this->view('home/index');
 
