@@ -1,7 +1,7 @@
 <?php
     class Login extends Controller{
 
-        public function form(){
+        public function index(){
             
             $this->view('login/form');
 
