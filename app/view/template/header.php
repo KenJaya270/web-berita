@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <link rel="stylesheet" href="<?= BASEURL?>/css/style.css">
+    <!-- <link rel="stylesheet" href="<?= BASEURL?>/css/style1.css"> -->
 
     <title>Halaman <?= $data['judul'];?></title>
 
@@ -24,7 +25,7 @@
                 <li><a href="#">Trendings</a></li>
                 <li><a href="#">What's new</a></li>
                 <li><a href="#">Old report</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">About</a></li>
                 <li><a href="<?= BASEURL ?>/login/form"><button class="btn-danger navbar-btn">Log In</button>
             </ul>
         </header>

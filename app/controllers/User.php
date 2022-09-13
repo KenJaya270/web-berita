@@ -5,7 +5,7 @@
         }
 
         public function profile($nama = "Linux", $pekerjaan = "Devs"){
-            echo "Salam kenal saya $nama, saya seorang $pekerjaan"
+            echo "Salam kenal saya $nama, saya seorang $pekerjaan";
         }
     }
 ?>

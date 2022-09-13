@@ -2,5 +2,11 @@
 
     class Register extends Controller{
 
-        $this->view('register/form');
+        public function index(){
+
+            
+            $this->view('register/form');
+            
+        }
+
     }

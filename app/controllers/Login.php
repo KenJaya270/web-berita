@@ -1,11 +1,9 @@
 <?php
     class Login extends Controller{
 
-        public function form(){
-            $this->view('template/header')
+        public function index(){
             
             $this->view('login/form');
 
-            $this->view('template/footer')
         }
     }

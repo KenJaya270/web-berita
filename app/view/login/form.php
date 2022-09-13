@@ -27,7 +27,7 @@
                     </div>
                   </div>
                 </div>
-                <img class="col-lg-6 d-none d-lg-block" src="img/loginRegister.png" alt="loginImg" />
+                <img class="col-lg-6 d-none d-lg-block" src="<?=BASEURL?>/img/loginRegister.png" alt="loginImg" />
               </div>
             </div>
           </div>
