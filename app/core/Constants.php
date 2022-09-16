@@ -1,3 +1,3 @@
 <?php
 
-    define('BASEURL', 'http://localhost/beritaN/public');
+define('BASEURL', 'http://localhost/webberita/public');
