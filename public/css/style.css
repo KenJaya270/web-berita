@@ -7,9 +7,9 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     min-height: 100vh;
     background: #f7fcff;
 }
@@ -80,4 +80,8 @@ h5  {
 
 .font-sized{
     font-size: 1.85rem;
+}
+
+.no-decoration{
+    text-decoration: none;
 }

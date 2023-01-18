@@ -14,7 +14,7 @@ class Middleware
     static function level($level)
     {
         Middleware::auth();
-        if (isset($_SESSION['user-login']) && $level = 'user') {
+        if (!isset($_SESSION['user-login']) && $level = '') {
             return Functions::back();
             exit;
         }
