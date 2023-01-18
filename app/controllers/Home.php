@@ -1,15 +1,14 @@
 <?php
-    class Home extends Controller{
-        
-        public function index(){
-            $data['judul'] = "Home";
+class Home extends Controller
+{
 
-            $this->view('template/header', $data);
+    public function index()
+    {
+        $data['judul'] = "Home";
 
-            $this->view('home/index');
-
-            $this->view('template/footer');
-        }
-
+        $this->view('template/header', $data);
+        $this->view('template/navbar');
+        $this->view('home/index');
+        $this->view('template/footer');
     }
-?>
+}

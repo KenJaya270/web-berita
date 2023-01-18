@@ -73,3 +73,11 @@ header ul li a:hover {
 h5  {
     text-transform: uppercase;
 }
+
+.font-sized2{
+    font-size: 1.85rem;
+}
+
+.font-sized{
+    font-size: 1.85rem;
+}

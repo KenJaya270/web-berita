@@ -9,8 +9,9 @@
 
     <link rel="stylesheet" href="<?= BASEURL ?>/css/style.css">
     <link rel="stylesheet" href="<?= BASEURL ?>/css/style1.css">
+    <link rel="stylesheet" href="<?= BASEURL ?>/css/bootstrap.min.css">
 
-    <title>Halaman <?= $data['judul']; ?></title>
+    <title><?= $data['judul']; ?></title>
 
     <!-- Favicons -->
     <link rel="icon" type="img/png" href="img/favicon.png" sizes="40x40">
@@ -18,17 +19,3 @@
 </head>
 
 <body>
-    <section class="sec">
-        <header>
-            <a href="#"> <img class="logo" src="img/logo.png"></a>
-            <h1>BNews</h1>
-            <div class="toggleMenu" onclick="menuToggle();"></div>
-            <ul class="navigation">
-                <li class="active"><a href="home.html">Home</a></li>
-                <li><a href="#">Trendings</a></li>
-                <li><a href="#">What's new</a></li>
-                <li><a href="#">Old report</a></li>
-                <li><a href="<?= BASEURL ?>/about/index">About</a></li>
-                <li><a href="<?= BASEURL ?>/login/form"><button class="btn-danger navbar-btn">Log In</button>
-            </ul>
-        </header>

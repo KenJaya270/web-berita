@@ -1,9 +1,12 @@
 <?php
-    class Login extends Controller{
+class Login extends Controller
+{
 
-        public function index(){
-            
-            $this->view('login/form');
-
-        }
+    public function index()
+    {
+        $data['judul'] = 'Login';
+        $this->view('template/header', $data);
+        $this->view('login/index');
+        $this->view('template/footer');
     }
+}
