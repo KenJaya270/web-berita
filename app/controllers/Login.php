@@ -7,6 +7,5 @@ class Login extends Controller
         $data['judul'] = 'Login';
         $this->view('template/header', $data);
         $this->view('login/index');
-        $this->view('template/footer');
     }
 }

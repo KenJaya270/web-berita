@@ -1,6 +1,6 @@
 <section class="sec">
     <header>
-        <a href="#"> <img class="logo" src="img/logo.png"></a>
+        <a href="#"> <img class="logo" src="<?= BASEURL ?>/img/logo.png"></a>
         <h1>BNews</h1>
         <div class="toggleMenu" onclick="menuToggle();"></div>
         <ul class="navigation">

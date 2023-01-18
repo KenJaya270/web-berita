@@ -13,7 +13,7 @@ class Auth extends Controller
             exit;
         } else {
             $_SESSION['user-login'] = $this->userData;
-            header('Location: ' . BASEURL . $_SESSION['user-login']['level']);
+            header('Location: ' . BASEURL . "/" . $_SESSION['user-login']['level']);
             exit;
         }
     }
