@@ -1,6 +1,6 @@
 # WEB-BERITA
 
-Melanjutkan sebuah studi kasus PWPB
+Melanjutkan sebuah studi kasus PWPB yang dikerjakan berkelompok via gitlab
 
 Rule
 
