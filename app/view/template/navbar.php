@@ -9,5 +9,6 @@
             <li><a href="#">Old report</a></li>
             <li><a href="<?= BASEURL ?>/about/index">About</a></li>
             <li><a href="<?= BASEURL ?>/login/form"><button class="btn btn-primary navbar-btn">Log In</button>
+            <li><a href="<?= BASEURL ?>/auth/logout"><button class="btn btn-danger navbar-btn">Log out</button>
         </ul>
     </header>

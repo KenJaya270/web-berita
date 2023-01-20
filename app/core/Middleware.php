@@ -4,10 +4,10 @@ class Middleware
     static function auth()
     {
         if (!isset($_SESSION['user-login'])) {
-            Functions::back();
-        } else {
-            header('Location: ' . BASEURL . $_SESSION['user-login']['level']);
+            header('Location: ' . BASEURL);
             exit;
+        } else {
+            // exit;
         }
     }
 

@@ -13,8 +13,18 @@ class Auth extends Controller
             exit;
         } else {
             $_SESSION['user-login'] = $this->userData;
-            header('Location: ' . BASEURL . "/" . $_SESSION['user-login']['level']);
+            // var_dump(BASEURL . "/" . $_SESSION['user-login']['level']);
+            $direct = BASEURL . "/user";
+            // var_dump($direct);
+            header("Location: $direct");
             exit;
         }
+    }
+
+    public function logout()
+    {
+        Middleware::auth();
+        session_destroy();
+        unset($_SESSION['user-login']);
     }
 }
