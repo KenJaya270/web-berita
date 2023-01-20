@@ -1,13 +1,13 @@
 <!--Berita Utama-->
-<div class="content">
+<h2 class="text-dark p-3">Latest News</h2>
+<div class="content d-flex justify-content-between align-items-start p-3">
     <div class="container mb-5">
-        <h2 class="text-dark">Latest News</h2>
 
-        <a class="container mt-1" href="">
+        <a class="container mt-1 p-0 m-0" href="">
             <ul class="p-0">
                 <li class="bg-light p-3 list-group-item rounded">
                     <div class="d-flex align-items-center">
-                        <img class="rounded w-25" src="<?= BASEURL ?>/img/berita1.jpg" alt="">
+                        <img class="rounded w-25" src="<?= BASEURL ?>/img/berita1.jpg" alt="" style="max-width: max-width: 50%;">
                         <div class="container">
                             <span>
                                 <i>
@@ -16,7 +16,8 @@
                                 </i>
                             </span>
 
-                            <h4 class="no-decoration">MEGAWATI MENAIKKAN PAJAK BENSIN BBM</h4>
+                            <h5 class="no-decoration">MEGAWATI MENAIKKAN PAJAK BENSIN BBM</h5>
+                            <p class="text-dark m-0"><small><i>By Author</i></small></p>
                             <p class="text-dark m-0 no-decoration">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
@@ -36,8 +37,9 @@
                                 </i>
                             </span>
 
-                            <h4 class="no-decoration">Berita Dhea Onlyfans Terkini Hari Ini</h4>
-                            <p class="text-dark m-0 no-decoration">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <h5 class="no-decoration">Berita Dhea Onlyfans Terkini Hari Ini</h4>
+                                <p class="text-dark m-0"><small><i>By Author</i></small></p>
+                                <p class="text-dark m-0 no-decoration">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
                 </li>
@@ -55,7 +57,8 @@
                                     14 Jan 2023
                                 </i>
                             </span>
-                            <h4 class="no-decoration">MEGAWATI MENAIKKAN PAJAK BENSIN BBMAPPLE WATCH SERIES 8 DIPREDIKSI DAPAT MENDETEKSI DEMAM</h4>
+                            <h5 class="no-decoration">MEGAWATI MENAIKKAN PAJAK BENSIN BBMAPPLE WATCH SERIES 8 DIPREDIKSI DAPAT MENDETEKSI DEMAM</h5>
+                            <p class="text-dark m-0"><small><i>By Author</i></small></p>
                             <p class="text-dark m-0 no-decoration">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
@@ -75,7 +78,8 @@
                                 </i>
                             </span>
 
-                            <h4 class="no-decoration">SAMBO BERBOHONG? NAMUN MASIH KUKUH DENGAN PERNYATAAN PEMERKOSAAN</h4>
+                            <h5 class="no-decoration">SAMBO BERBOHONG? NAMUN MASIH KUKUH DENGAN PERNYATAAN PEMERKOSAAN</h5>
+                            <p class="text-dark m-0"><small><i>By Author</i></small></p>
                             <p class="text-dark m-0 no-decoration">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
@@ -93,7 +97,8 @@
                                     14 Jan 2023
                                 </i>
                             </span>
-                            <h4 class="no-decoration">Steam Diblokir, Pemilik Akun @razfaren Rugi Rp 300 Juta dan Minta Ganti Rugi ke KEMENKOMINFO</h4>
+                            <h5 class="no-decoration">Steam Diblokir, Pemilik Akun @razfaren Rugi Rp 300 Juta dan Minta Ganti Rugi ke KEMENKOMINFO</h5>
+                            <p class="text-dark m-0"><small><i>By Author</i></small></p>
                             <p class="text-dark m-0 no-decoration">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
                     </div>
@@ -101,5 +106,61 @@
             </ul>
         </a>
     </div>
+    <div class="col-4">
+        <h5 class="text-dark letter-spacing">TRENDINGS</h5>
+        <div class="dropdown-divider"></div>
+        <ul class="p-0 m-0">
+            <li style="list-style: none;" class="pt-3 ms-2">
+                <a href="<?= BASEURL ?>" class="">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <img src="<?= BASEURL ?>/img/berita1.jpg" alt="berita1.jpg" style="max-width: 30%;">
+                        <div class="container">
+                            <h10 class="text-dark no-decoration"><small>MEGAWATI MENAIKKAN PAJAK BENSIN BBM</small></h10>
+                            <p class="m-0 text-dark"> <small><i>By Author</i></small></p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <div class="dropdown-divider"></div>
+            <li style="list-style: none;" class="pt-3 ms-2">
+                <a href="<?= BASEURL ?>" class="">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <img src="<?= BASEURL ?>/img/berita2.webp" alt="berita2.webp" style="max-width: 30%;">
+                        <div class="container">
+                            <h10 class="text-dark no-decoration"><small>MEGAWATI MENAIKKAN PAJAK BENSIN BBM</small></h10>
+                            <p class="m-0 text-dark"> <small><i>By Author</i></small></p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <div class="dropdown-divider"></div>
+            <li style="list-style: none;" class="pt-3 ms-2">
+                <a href="<?= BASEURL ?>" class="">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <img src="<?= BASEURL ?>/img/berita1.jpg" alt="berita1.jpg" style="max-width: 30%;">
+                        <div class="container">
+                            <h10 class="text-dark no-decoration"><small>MEGAWATI MENAIKKAN PAJAK BENSIN BBM</small></h10>
+                            <p class="m-0 text-dark"> <small><i>By Author</i></small></p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <div class="dropdown-divider"></div>
+            <li style="list-style: none;" class="pt-3 ms-2">
+                <a href="<?= BASEURL ?>" class="">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <img src="<?= BASEURL ?>/img/berita1.jpg" alt="berita1.jpg" style="max-width: 30%;">
+                        <div class="container">
+                            <h10 class="text-dark no-decoration"><small>MEGAWATI MENAIKKAN PAJAK BENSIN BBM</small></h10>
+                            <p class="m-0 text-dark"> <small><i>By Author</i></small></p>
+                        </div>
+                    </div>
+                </a>
+            </li>
+            <div class="dropdown-divider"></div>
 
-    </section>
+        </ul>
+    </div>
+</div>
+
+</section>

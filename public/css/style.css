@@ -85,3 +85,7 @@ h5  {
 .no-decoration{
     text-decoration: none;
 }
+
+.letter-spacing{
+    letter-spacing: 1px;
+}

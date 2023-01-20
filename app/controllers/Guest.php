@@ -1,5 +1,5 @@
 <?php
-class User extends Controller
+class Guest extends Controller
 {
     public function index()
     {
