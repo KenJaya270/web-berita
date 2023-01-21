@@ -14,7 +14,10 @@
             </ul>
         </div>
         <div class="container">
-
-            <p class="text-dark"><small><?= $_SESSION['user-login']['email']; ?></small></p>
+            <?php if (isset($_SESSION['user-login'])) : ?>
+                <p class="text-dark"><small><?= $_SESSION['user-login']['email']; ?></small></p>
+            <?php else : ?>
+                <p class="text-dark small">Guest</p>
+            <?php endif; ?>
         </div>
     </header>

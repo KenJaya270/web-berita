@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?= BASEURL ?>/css/style.css">
     <link rel="stylesheet" href="<?= BASEURL ?>/css/style1.css">
     <link rel="stylesheet" href="<?= BASEURL ?>/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= BASEURL ?>/css/sb-admin2.min.css">
     <link rel="stylesheet" href="<?= BASEURL ?>/css/footer.css">
 
     <title><?= $data['judul']; ?></title>
