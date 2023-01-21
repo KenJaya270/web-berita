@@ -16,8 +16,12 @@ body {
 header ul {
     position: relative;
     display: flex;
+    padding: 0;
+    margin: 0;
 }
 header ul li {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 header ul li a {
@@ -27,7 +31,7 @@ header ul li a {
     margin-left: 40px;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 25px 20px;
+    padding: 20px 15px;
     margin: 0 auto;
 }
 header ul li a:hover {
