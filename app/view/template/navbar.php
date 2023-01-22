@@ -27,7 +27,7 @@
                 </a>
 
                 <?php if (isset($_SESSION['user-login'])) : ?>
-                    <a class="dropdown-item" href="<?= BASEURL ?>/user/buatArtikel">
+                    <a class="dropdown-item" href="<?= BASEURL ?>/user/artikelmu">
                         <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
                         Buat Artikel
                     </a>

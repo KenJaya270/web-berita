@@ -1,8 +1,10 @@
 <div class="container-fluid d-flex justify-content-between align-items-center">
     <h2 class="text-dark p-3">Artikelmu</h2>
-    <button class="btn btn-primary">Tambah Artikel</button>
+    <a href="<?= BASEURL ?>/user/buatArtikel" class="btn btn-primary">Tambah Artikel</a>
 </div>
-
+<div class="container-fluid">
+    <?php Flasher::flash(); ?>
+</div>
 <div class="content">
     <div class="container mb-5">
         <div class="row">
