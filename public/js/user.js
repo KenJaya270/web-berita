@@ -1,8 +1,13 @@
 const artikelTanggal = document.querySelector('#artikelTanggal').innerHTML;
-const node = document.createElement('span');
+
+const artikelTanggal2 = document.querySelector('#artikelTanggal').setAttribute('class', 'd-none');
+
 let tanggal = artikelTanggal.split("-")[2];
-node.innerText = tanggal;
-artikelTanggal.appendChild(node);
+
+const coba = document.querySelectorAll('#coba');
+coba.forEach(coba=>{
+    coba.innerHTML = tanggal;
+})
 function insertArtikel() {
     const tanggal_up = document.querySelector('#tanggal_up').value;
     const bulan_up = document.querySelector('#bulan_up');

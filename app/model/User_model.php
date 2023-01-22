@@ -10,6 +10,22 @@ class User_model
         $this->db = new Database();
     }
 
+    public function getAllArtikel()
+    {
+        $query = "SELECT id_artikel,
+        id_user,
+        judul, 
+        SUBSTRING(text_artikel, 1, 182) AS textArtikel, 
+        tgl_up, 
+        bulan_up, 
+        tahun_up, 
+        foto 
+        FROM {$this->table1}";
+        $this->db->query($query);
+        $this->db->execute();
+        return $this->db->setResults();
+    }
+
     public function setFoto($namaInput)
     {
         $namaFile = $_FILES[$namaInput]['name'];
@@ -63,10 +79,35 @@ class User_model
 
     public function getAllArtikelById()
     {
-        $query = "SELECT * FROM {$this->table1} LEFT JOIN {$this->table2} ON {$this->table1}.id_user = {$this->table2}.id_user WHERE {$this->table1}.id_user = :id_user";
+        $query = "SELECT SUBSTRING({$this->table1}.text_artikel, 1, 185) as textArtikel,
+        {$this->table1}.id_artikel,
+        {$this->table1}.id_user,
+        {$this->table1}.judul,
+        {$this->table1}.tgl_up,
+        {$this->table1}.bulan_up,
+        {$this->table1}.tahun_up,
+        {$this->table1}.foto,
+        {$this->table2}.id_user, 
+        {$this->table2}.nama,
+        {$this->table2}.email,
+        {$this->table2}.password,
+        {$this->table2}.no_telp,
+        {$this->table2}.level
+        FROM {$this->table1}
+        LEFT JOIN user ON {$this->table1}.id_user = {$this->table2}.id_user 
+        WHERE {$this->table1}.id_user = :id_user";
         $this->db->query($query);
         $this->db->bind('id_user', $_SESSION['user-login']['id_user']);
         $this->db->execute();
         return $this->db->setResults();
+    }
+
+    public function getArtikelById($id)
+    {
+        $query = "SELECT * FROM {$this->table1} LEFT JOIN {$this->table2} ON {$this->table1}.id_user = {$this->table2}.id_user WHERE {$this->table1}.id_user = :id_user";
+        $this->db->query($query);
+        $this->db->bind('id_user', $id);
+        $this->db->execute();
+        return $this->db->single();
     }
 }

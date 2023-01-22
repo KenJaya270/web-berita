@@ -9,7 +9,7 @@
     <div class="container mb-5">
         <div class="row">
             <?php foreach ($data['getAllArtikelById'] as $artikel) : ?>
-                <a class="container mt-1 p-0 m-0" href="">
+                <a class="container mt-1 p-0 m-0" href="<?= BASEURL ?>/user/lihatArtikel/<?= $artikel['id_artikel'] ?>">
                     <ul class="p-0">
                         <li class="bg-light p-3 list-group-item rounded d-flex align-items-start">
                             <div class="d-flex align-items-center">
@@ -17,6 +17,7 @@
                                 <div class="container">
                                     <span class="text-dark">
                                         <i>
+                                            <span id="coba"></span>
                                             <span id="artikelTanggal"><?= $artikel['tgl_up'] ?></span> <?= $artikel['bulan_up'] ?> <?= $artikel['tahun_up'] ?>
 
                                         </i>
@@ -24,7 +25,7 @@
 
                                     <h5 class="no-decoration text-dark"><?= $artikel['judul']; ?></h5>
                                     <p class="text-dark m-0"><small><i>By <?= $artikel['email'] ?></i></small></p>
-                                    <p class="text-dark m-0 no-decoration">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    <p class="text-dark m-0 no-decoration"><?= $artikel['textArtikel'] ?>...</p>
                                 </div>
                             </div>
                             <div class="dropdown no-arrow">

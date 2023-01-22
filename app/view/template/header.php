@@ -18,8 +18,8 @@
     <title><?= $data['judul']; ?></title>
 
     <!-- Favicons -->
-    <link rel="icon" type="img/png" href="img/favicon.png" sizes="40x40">
-    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="icon" type="img/png" href="<?= BASEURL ?>/img/favicon.png" sizes="40x40">
+    <link rel="apple-touch-icon" href="<?= BASEURL ?>/img/favicon.png">
 </head>
 
 <body>
