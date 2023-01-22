@@ -6,7 +6,7 @@ Rule
 
 - Penulis => manipulasi data artikel mereka
 
-- Admin => manipulasi data user, dan artikel setiap penulis
+- Admin => manipulasi data user, dan artikel setiap penulis, membuat artikel
 
 Contributor
 
