@@ -15,6 +15,7 @@ class User extends Controller
     {
         Middleware::level('user');
         $data['judul'] = 'Buat Artikelmu!';
+        $data['getAllArtikelById'] = $this->model('User_model')->getAllArtikelById();
         $this->view('template/header', $data);
         $this->view('template/navbar');
         $this->view('user/artikelmu', $data);
@@ -27,7 +28,7 @@ class User extends Controller
         $data['judul'] = 'Buat Artikel';
         $this->view('template/header', $data);
         $this->view('template/navbar');
-        $this->view('user/insertArtikel');
+        $this->view('user/buatArtikel');
         $this->view('template/footer');
     }
 

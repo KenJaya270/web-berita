@@ -13,7 +13,7 @@
     </div>
     <div class="container-fluid mt-2">
         <label class="form-label text-dark">Tanggal Upload:</label>
-        <input type="date" name="tanggal_up" id="tanggal_up" class="form-control" oninput="">
+        <input type="date" name="tgl_up" id="tanggal_up" class="form-control" oninput="insertArtikel();">
     </div>
     <div class="container-fluid mt-2">
         <label for="bulan_up" class="form-label text-dark">Bulan Upload:</label>
@@ -22,5 +22,8 @@
     <div class="container-fluid mt-2">
         <label for="tahun_up" class="form-label text-dark">Tahun Upload:</label>
         <input type="text" name="tahun_up" id="tahun_up" class="form-control" readonly>
+    </div>
+    <div class="container-fluid mt-2">
+        <button type="submit" class="btn btn-primary rounded-pill">Submit</button>
     </div>
 </form>
